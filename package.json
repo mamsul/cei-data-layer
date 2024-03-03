@@ -1,0 +1,19 @@
+{
+  "name": "data-layer",
+  "version": "1.0.0",
+  "description": "data layer for service gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./api/index.js",
+    "dev": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imam",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
