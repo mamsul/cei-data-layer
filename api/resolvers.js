@@ -16,7 +16,7 @@ const resolvers = {
         });
         const authData = await res.json();
         if (authData.error) {
-          throw error;
+          throw new Error(authData.error);
         } else {
           return authData;
         }
